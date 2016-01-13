@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -5,4 +11,33 @@ body {
 
 .container {
   max-width: 640px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px; }
+
+.site-header {
+  margin: 30px 0; }
+  .site-header .logo {
+    margin-bottom: 50px; }
+  .site-header .input-data {
+    position: relative; }
+    .site-header .input-data input {
+      width: 100%;
+      font-size: 1.25em;
+      padding: 18px 20px;
+      border: 4px solid #eee;
+      border-radius: 5px; }
+      .site-header .input-data input:focus {
+        outline: none; }
+    .site-header .input-data button {
+      position: absolute;
+      top: 8px;
+      right: 20px;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 0;
+      background: #F8E71C;
+      width: 50px;
+      height: 50px;
+      border: 0;
+      border-radius: 5px; }
