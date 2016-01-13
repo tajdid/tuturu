@@ -37,7 +37,7 @@ $('#name').keyup(function(e){
     }
 });
 
-
+// Old ting
 // $('.done-btn').on( 'click', function() {
 //   $(this).parent('li').addClass('done');
 // });    
